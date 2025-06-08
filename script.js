@@ -78,4 +78,6 @@ let anio = fecha.getFullYear()
 console.log(dia + " / " + mes + " / " + anio);
 let fecha_actual = dia + " / " + mes + " / " + anio
 
-document.getElementById("text-fecha").innerText=fecha_actual;
+document.getElementById("text-fecha").innerHTML = fecha_actual;
+let ine = document.getElementById("text-fecha").innerHTML;
+console.log("console: "+ ine);
