@@ -89,13 +89,7 @@ nav ul{
     font-size: 1.5rem;
     color: blue;
 }
-footer {
-    background-color: blueviolet;
-    border: dodgerblue;
-    width: auto; 
 
-    text-align:right;
-}
 main {
     text-align: center;
     margin: auto;
@@ -269,4 +263,26 @@ div .container-curso-guitarra .precio-curso-guitarra-electrica{
     margin:.1rem;
     padding: .3rem;
 
+}
+footer {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center; 
+    background-color: blueviolet;
+    border: dodgerblue;
+    width: 80%;
+    margin:auto;
+     
+}
+.fecha{
+    width:70% ;
+    margin: left;
+    padding: .1rem;
+}
+#text-fecha{   
+    width: 100%;     
+    margin:auto;
+    text-align: center;
+    font-weight: 900;
+    padding: .1rem;
 }
