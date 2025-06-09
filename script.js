@@ -73,7 +73,7 @@ console.log(array);
 */
 let fecha = new Date();
 let dia = fecha.getDate();
-let mes = fecha.getMonth();
+let mes = fecha.getMonth()+ 1;
 let anio = fecha.getFullYear()
 console.log(dia + " / " + mes + " / " + anio);
 let fecha_actual = dia + " / " + mes + " / " + anio
@@ -81,3 +81,12 @@ let fecha_actual = dia + " / " + mes + " / " + anio
 document.getElementById("text-fecha").innerHTML = fecha_actual;
 let ine = document.getElementById("text-fecha").innerHTML;
 console.log("console: "+ ine);
+
+const email = document.getElementById("mail");
+console.log("Soy de tipo : "+typeof(email));
+for (i in email){
+    if (i === "placeholder")
+         console.log("se puede manipular la propiedad :" + i)
+    
+    
+}
