@@ -82,11 +82,10 @@ document.getElementById("text-fecha").innerHTML = fecha_actual;
 let ine = document.getElementById("text-fecha").innerHTML;
 console.log("console: "+ ine);
 
-const email = document.getElementById("mail");
-console.log("Soy de tipo : "+typeof(email));
-for (i in email){
-    if (i === "placeholder")
-         console.log("se puede manipular la propiedad :" + i)
-    
-    
-}
+const email_ = document.getElementById("-mail-");
+console.log("Soy de tipo : "+typeof(email_));
+for (i in email_){
+    if (i === "placeholder"){
+        console.log(i);  
+    }
+} 
