@@ -33,8 +33,13 @@ reg = /0/;
 console.log("expresion regular es: " + reg.test(es_cero) );
 if (reg.test(es_cero)){
    //console.log("no se puede dividir entre (0)");
-   alert("No se puede dividir entre cero..");
-}
+    const body= document.getElementsByTagName('body');
+    body[0].classList.add('darkBackGround');
+    
+    
+    alert("No se puede dividir entre cero..");
+   }
+
 else{
    const resultado_divi = document.getElementById("resultado-divi");
    resultado_divi.value = (Number(num1) / Number(num2)).toFixed(2);
