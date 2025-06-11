@@ -32,7 +32,7 @@ let es_cero = num2;
 reg = /0/;
 console.log("expresion regular es: " + reg.test(es_cero) );
 if (reg.test(es_cero)){
-   console.log("no se puede dividir entre (0)");
+   //console.log("no se puede dividir entre (0)");
    alert("No se puede dividir entre cero..");
 }
 else{
