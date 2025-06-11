@@ -34,9 +34,7 @@ console.log("expresion regular es: " + reg.test(es_cero) );
 if (reg.test(es_cero)){
    //console.log("no se puede dividir entre (0)");
     const body= document.getElementsByTagName('body');
-    body[0].classList.add('darkBackGround');
-    
-    
+    body[0].classList.add('darkBackGround');    
     alert("No se puede dividir entre cero..");
    }
 
