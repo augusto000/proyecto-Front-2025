@@ -89,3 +89,5 @@ for (i in email_){
         console.log(i);  
     }
 } 
+const titulo = document.getElementsByTagName('title');
+console.log(titulo[0].innerText = 'Lo mejor de la música chulay..');
