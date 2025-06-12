@@ -82,6 +82,7 @@ document.getElementById("text-fecha").innerHTML = fecha_actual;
 let ine = document.getElementById("text-fecha").innerHTML;
 console.log("console: "+ ine);
 
+/*
 const email_ = document.getElementById("-mail-");
 console.log("Soy de tipo : "+typeof(email_));
 for (i in email_){
@@ -89,8 +90,10 @@ for (i in email_){
         console.log(i);  
     }
 } 
+*/
 const titulo = document.getElementsByTagName('title');
-console.log(titulo[0].innerText = 'Lo mejor de la música chulay..');
+console.log(titulo[0].innerText = '🎸 Lo mejor de la música chulay..');
 
-const p_texto = document.getElementById('p-direccion');
-p_texto.classList.add('p-direccion');
+const p_texto_subrayado = document.getElementById('p-direccion');
+//console.log(p_texto_subrayado);
+const pTextoSubrayado = document.getElementById(p_texto_subrayado);
