@@ -32,8 +32,11 @@ h2{
     color:blueviolet;    
 }
 #encabezado{
-    margin:auto;
-    text-align: center;;
+    margin:0rem;
+    padding: 0rem;
+    text-align: center;
+    width:auto;
+
 }
 a{
     text-decoration: none;
