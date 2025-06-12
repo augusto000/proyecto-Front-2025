@@ -76,11 +76,11 @@ let dia = fecha.getDate();
 let mes = fecha.getMonth()+ 1;
 let anio = fecha.getFullYear()
 console.log(dia + " / " + mes + " / " + anio);
-let fecha_actual = dia + " / " + mes + " / " + anio
+//let fecha_actual = dia + " / " + mes + " / " + anio
+//let anio_actual = anio;
+let textFecha = document.getElementsByClassName('text-fecha');
+textFecha[0].textContent=anio;
 
-document.getElementById("text-fecha").innerHTML = fecha_actual;
-let ine = document.getElementById("text-fecha").innerHTML;
-console.log("console: "+ ine);
 
 /*
 const email_ = document.getElementById("-mail-");

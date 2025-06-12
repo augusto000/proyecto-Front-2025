@@ -9,7 +9,7 @@
       href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
       rel="stylesheet"
     />
-    <link rel="icon" type="image/svg" href="guitar-solid.svg">
+    <link rel="icon" type="image/svg" href=" guitar-solid.svg">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
@@ -307,41 +307,41 @@
       <div>
         <div>
              <form id="formulario-form" action="https://formspree.io/f/mpwdawyv" method="post">
-          <h2 id ="titulo-formulario">Formulario de Contacto</h2>
+          <div>
+            <h2 id ="titulo-formulario">Formulario de Contacto</h2>
+          </div>
           <!--Comienzo de formulario-->
           <div class="formulario">
-              <div>
-            <label
-              >Nombre
-              <input
-                type="text"
-                id="nombre"
-                name="nombre"
-                placeholder="nombre"
-              />
-            </label>
-          </div>
-          <div>
-            <label for="apellido">Apellido</label
-            ><input
+            <div class="items label-nombre">                
+                <label
+                  >Nombre : 
+                  <input
+                    type="text"
+                    id="nombre"
+                    name="nombre"
+                    placeholder="nombre"
+                  />
+                </label>
+            </div>
+          <div class="items label-apellido">
+            <label for="apellido">Apellido : </label><input
               type="text"
               id="apellido"
               name="apellido"
               placeholder="apellido"
             />
           </div>
-          <div>
-            <label for="direccion">Dirección</label
+          <div class="items label-direccion">
+            <label for="direccion">Dirección : </label
             ><input
               type="text"
               id="direccion"
               name="direccion"
               placeholder="direccion"
             />
-          </div>
-
-          <div>
-            <label for="mail">Mail</label>
+           </div>
+          <div class="items label-mail">
+            <label for="mail">Mail : </label>
             <input
               type="email"
               required
@@ -350,9 +350,8 @@
               name="mail"
             />
           </div>
-
-          <div>
-            <label for="telefono">Teléfono</label>
+          <div class="items label-telefono">
+            <label for="telefono">Teléfono :</label>
             <input
               type="text"
               name="telefono"
@@ -361,8 +360,8 @@
               placeholder="telefono"
             />
           </div>
-          <div>
-            <label for="opciones">Escoja tipo de música:</label>
+          <div class="items label-musica">
+            <label for="opciones">Escoja tipo de música : </label>
             <select name="opciones" id="opciones">
               <option value="rock-and-roll">- Rock and roll</option>
               <option value="jazz">- Jazz</option>
@@ -370,8 +369,8 @@
               <option value="bossanova">- Bossa Nova</option>
             </select>
           </div>
-          <div>
-            <label for="comentarios"> Comentarios </label>
+          <div class="items label-comentarios">
+            <label for="comentarios"> Comentarios : </label>
             <textarea
               name="comentarios"
               id="comentarios"
@@ -379,8 +378,7 @@
               cols="40"
             ></textarea>
           </div>
-
-          <div>
+          <div class="items label-BtnEnviar">
             <button type="submit">Enviar</button>
           </div>
         </form>
@@ -392,7 +390,9 @@
     </main>
     <footer>
       <div class="fecha">
-        <p id="text-fecha">dfsdfsdfsdfs</p>
+      
+          &#169;<span class="text-fecha">dfsdfsdfsdfs</span>
+        
       
       </div>
       <div>
