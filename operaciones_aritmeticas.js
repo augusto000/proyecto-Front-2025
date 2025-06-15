@@ -48,16 +48,15 @@ else{
 /**Tomo el precio */
 let precio = document.querySelector('.card-1-footer p').textContent;
 let nuevoNumero = Number(precio.slice(0,3));
-console.log("Nuevo numero : " + nuevoNumero);
 
-const btn_ = document.querySelector('button');
-console.log(" Boton de carrito " + btn_);
+/**referencio el boton */
+const boton_ = document.querySelector('button');
 
 function mostrar(){
     console.log("dentro la función mostrar");
 }
 
-btn_.addEventListener('onclick', mostrar);
+boton_.addEventListener('onclick', mostrar);
 
 
 
