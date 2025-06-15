@@ -48,15 +48,20 @@ else{
 /**Tomo el precio */
 let precio = document.querySelector('.card-1-footer p').textContent;
 let nuevoNumero = Number(precio.slice(0,3));
+let i_v = document.querySelector('.iv');
+const btnn = document.getElementById('btn1');
+const c_input = document.querySelector('.total');
 
-/**referencio el boton */
-const boton_ = document.querySelector('button');
 
-function mostrar(){
-    console.log("dentro la función mostrar");
+
+function mostrarValor(){
+   // console.log('valor del boton : ',btnn); 
+   //console.log('valor de precio: ', pre1);
+   //console.log('valor de dstPre: ', dstPre);
+   document.getElementById('campo-precio').value = nuevoNumero;
+   let iva_= nuevoNumero * 0.21;
+   i_v.value = Number(iva_);
+   c_input.value = iva_ + nuevoNumero;
 }
 
-boton_.addEventListener('onclick', mostrar);
-
-
-
+btnn.addEventListener('click', mostrarValor);
