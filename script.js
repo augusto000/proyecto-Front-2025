@@ -97,3 +97,13 @@ console.log(titulo[0].innerText = '🎸 Lo mejor de la música chulay..');
 const p_texto_subrayado = document.getElementById('p-direccion');
 //console.log(p_texto_subrayado);
 const pTextoSubrayado = document.getElementById(p_texto_subrayado);
+/*-------------AddEventListener-------------- */
+
+//obtengo la referencia
+const index_= document.querySelector('.item1 .index_1');
+console.log(index_);
+function mostrarClick(index_){
+    console.log(" Hola soy el: "+ index_);
+    
+}
+index_.addEventListener('click', mostrarClick);

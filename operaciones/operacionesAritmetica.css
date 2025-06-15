@@ -1,0 +1,102 @@
+html{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+#contenedor{
+    width:80%;
+    height:40%; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-basis: auto; 
+    padding: 0px 10px;
+    margin: auto; 
+}
+.input-precio{
+    background-color:aquamarine;
+    width: auto;
+    height: 30vh;
+    margin: 10px;
+    padding: 20px;
+}
+.total .number{
+    width: 15vw;
+    height: 10vh;
+    margin: 5%;
+}
+body{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 42%;
+    max-height:20vh ;
+    margin:auto;
+    padding: auto;          
+    font-family: 'Lato', sans-serif;
+    background:url('guitar-solid.svg');                                                                                                                                                 
+}
+.card-1-footer p{
+       height: 5vh;
+       margin: 0;
+       padding-bottom: 10px 0;
+       border-radius: 0 0 10px 10px;
+}
+.card-1-footer button{
+    margin: 10px;
+}
+.imagen-card-1{
+    background-color: rgba(88, 242, 17, 0.847);
+    text-align: center;
+    border-radius: 10px ;
+    max-width:60vw;
+    border: 1px double white;
+    margin:700px 0 0;
+}
+.imagen-card-1 img{
+    width:100%;
+    height:80%;
+    border: 1.5px solid rgba(0, 55, 55, 34);
+    
+}
+.card-1-footer{
+    text-align: center;
+    background-color: rgb(83, 219, 53);
+    margin:0;
+    padding:0px 0;
+    font-size: 1.5rem;    
+}
+.subtitulo-card{
+    font-size: 1.3rem;
+    color:rgb(3, 68, 125);
+    margin: -5px;
+    padding: 10px;
+ }
+ button{
+    font-size: 15px;
+    color: white;
+    border-radius: 15px;
+    background-color: rgb(1, 25, 17);
+    margin: 10px;
+    padding: 10px 15px;
+    border: 3px solid rgb(48, 7, 110);
+    user-select: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+ }
+ /*--------------->
+.darkBackGround{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(92, 211, 142);
+    max-width: 100vw;
+    min-height: 100vh;
+}
+    */

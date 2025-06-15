@@ -7,13 +7,41 @@
     <title id="titl">Dkjoj</title>
 </head>
 <body>
+
+    <div id="contenedor">
+        <div class="card-1">
+            <div class="imagen-card-1">
+              <h1>Gran elección, escogiste..!</h1>
+              <img src="/media/1.jpeg" alt="Curso de guitarra" title="Curso de guitarra"    >
+            </div>
+            <div class="card-1-footer fondo">
+              <h2 class="subtitulo-card">Curso de Guitarra El&eacute;ctrica</h2>
+              <p>350$</p>
+              <button> Agregar al Carrito</button>
+            </div>
+        </div>
+        
+        <div class="input-precio">
+          <h2>Calculo del precio final</h2>
+          <label for="precio" name="precio">Precio</label>
+          <input id ="campo-precio" type="text" placeholder="$">
+          <label for="iva" name="iva">IVA </label>
+          <input type="text" placeholder="$">
+          <div class="total">
+             <label for="total" name="total"> Total : </label>
+             <input class="number" input="number" placeholder="$" minlength="6" maxlength="10">
+          </div>
+        </div>
+        
+    </div>
+    <!--
     <div>
         <label for="nro1" name="nro1">Num1</label>
         <input id="nro1" type="text" name="nro1" value="4">
         <label for="nro2" name="nro2">Num2</label> 
         <input id="nro2" name="nro2" type="text" value="0">   
     </div>
-
+    
     <div>
         <label for="resultadoSuma">Resultado de la Suma</label>
         <input id="resultadoSuma" name="resultadoSuma" type="text">
@@ -30,7 +58,7 @@
         <label for="resultado">Resultado de la Divisi&oacute;n</label>
         <input id="resultado-divi" name="resultado" type="text">
     </div>
-
+     -->
     <script src="operaciones_aritmeticas.js"></script>
 </body>
 </html>
