@@ -92,7 +92,7 @@ for (i in email_){
 } 
 */
 const titulo = document.getElementsByTagName('title');
-console.log(titulo[0].innerText = '🎸 Lo mejor de la música chulay..');
+console.log(titulo[0].innerText = '🎸 Lo mejor de la música ..');
 
 const p_texto_subrayado = document.getElementById('p-direccion');
 //console.log(p_texto_subrayado);
