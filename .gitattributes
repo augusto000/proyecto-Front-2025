@@ -1,3 +1,4 @@
+*.mp4 filter=lfs diff=lfs merge=lfs -text
 zackWildeBallad-converted.mp4 filter=lfs diff=lfs merge=lfs -text
 NovemverRain.MP4 filter=lfs diff=lfs merge=lfs -text
 media/GitHubDesktopSetup-x64.exe filter=lfs diff=lfs merge=lfs -text
