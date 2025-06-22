@@ -26,7 +26,7 @@
   </head>
   <body>
     <header id="encabezado">
-      
+       <!-- 
       <video 
              controls 
              width="80%"
@@ -34,18 +34,18 @@
              autoplay
              muted
       >
-         <source src="/media/zackWildeBallad-converted.mp4" type="video/mp4"
-         >
+       <source src="/media/zackWildeBallad-converted.mp4" type="video/mp4">
+         
       </video>
-
-<!--      
+-->
+      
       <img
         width="800px"
         height="250px"
         src="media/44373.jpg"
         alt="imagenMusica"
       />
-    -->  
+    
       <nav>
         <ul id="contenedor">
           <li class="item1"><a class="index_1 " href="index.html">Inicio</a></li>
@@ -103,7 +103,11 @@
             están...
           </p>
         </div>
+        
+    <div>
 
+
+    </div>    
         <div class="espaciado-div"></div>
         <iframe
           class="musica-gratis"
@@ -115,7 +119,7 @@
           allowfullscreen
         >
         </iframe>
-      </section>
+     </section> 
       <!-- Tercera fila -->
       <section id="section-1">
         <iframe
@@ -318,34 +322,31 @@
         </table>
       </div>
       <!--Fin de tabla -->
+     <!--Comienzo de formulario-->
       <div>
-        <div>
-             <form id="formulario-form" action="https://formspree.io/f/mpwdawyv" method="post">
-          <div>
             <h2 id ="titulo-formulario">Formulario de Contacto</h2>
-          </div>
-          <!--Comienzo de formulario-->
-          <div class="formulario">
-            <div class="items label-nombre">                
-                <label
-                  >Nombre : 
+       </div> 
+     <form id="formulario" action="https://formspree.io/f/mpwdawyv" method="post">
+                  
+                            
+                <label>Nombre : 
                   <input
                     type="text"
                     id="nombre"
                     name="nombre"
                     placeholder="nombre"
+                    
                   />
-                </label>
-            </div>
-          <div class="items label-apellido">
+                </label>        
+         
             <label for="apellido">Apellido : </label><input
               type="text"
               id="apellido"
               name="apellido"
               placeholder="apellido"
             />
-          </div>
-          <div class="items label-direccion">
+          
+          
             <label for="direccion">Dirección : </label
             ><input
               type="text"
@@ -353,9 +354,8 @@
               name="direccion"
               placeholder="direccion"
             />
-           </div>
-          <div class="items label-mail">
-            <label for="mail">Mail : </label>
+           
+          <label for="mail">Mail : </label>
             <input
               type="email"
               required
@@ -363,9 +363,7 @@
               id="-mail-"
               name="mail"
             />
-          </div>
-          <div class="items label-telefono">
-            <label for="telefono">Teléfono :</label>
+          <label for="telefono">Teléfono :</label>
             <input
               type="text"
               name="telefono"
@@ -373,62 +371,86 @@
               maxlength="20"
               placeholder="telefono"
             />
-          </div>
-          <div class="items label-musica">
-            <label for="opciones">Escoja tipo de música : </label>
+          <label for="opciones">Escoja tipo de música : </label>
             <select name="opciones" id="opciones">
               <option value="rock-and-roll">- Rock and roll</option>
               <option value="jazz">- Jazz</option>
               <option value="blues" selected>- Blues</option>
               <option value="bossanova">- Bossa Nova</option>
             </select>
-          </div>
-          <div class="items label-comentarios">
-            <label for="comentarios"> Comentarios : </label>
+          <label for="comentarios"> Comentarios : </label>
             <textarea
               name="comentarios"
               id="comentarios"
               rows="10"
               cols="40"
             ></textarea>
+          <button id="btnEnviar"type="submit">Enviar</button>
+          </form>
+          <!--Contenedor de Reseñas-->
+          <div>
+            <h1 id="resen">Reseñas</h1>
           </div>
-          <div class="items label-BtnEnviar">
-            <button type="submit">Enviar</button>
-          </div>
-        </form>
-          </div>
-            
-        </div>
-        
-      </div>
+          <div id="contenedor-reseñas">
+                <div class="rese rese-1"></div>
+                <div class="rese rese-2"></div>
+                <div class="rese rese-3"></div>
+                <div class="rese rese-4"></div>
+          </div>    
     </main>
-    <footer>
-      <div class="fecha">
-      
-          &#169;<span class="text-fecha">dfsdfsdfsdfs</span>
+    <!------ Footer ----->
+    <footer>      
+          <div id="comision">
+              <span class="comision-1">Comisión :</span> 
+              <span class="nro-comision">25014</span>
+          </div>                   
+          <div id="autor">
+                <span class="autor"> Autor :</span>
+                <span class="nombre"> Augusto Ach&aacute;</span>
+          </div>           
+          <div id="copy">
+              <span class="simbolo">&#169;</span> 
+              <span class="text-fecha">dfsdfsdfsdfs</span>
+          </div>
+          <!--Iconos de face youtube e instagram-->        
+        <div id="iconos">
+              
+              <a href="https:www.youtube.com">
+                <i><img id="youtube" src="media/youtube.png"
+                  alt="icono de youtube"
+                />
+                </i>
+              </a>
+              <!--Instagram-->
+              <div>
+                <a href="https://www.instagram.com">
+                  <i>
+                    <img id="instagram"
+                      src="media/instagram.png"
+                      alt="icono de instagram"
+                    />
+                  </i>
+                </a>
+              </div>
+              <div>
+                <a href="https://www.youtube.com"><i
+                  ><img id="face"
+                           src="media/facebook.png"
+                           alt="icono de facebook"
+                       />
+                      </i>
+                   </a>
+              </div>      
+
+              
+
+        </div>
+          
+           
+           
+          
         
-      
-      </div>
-      <div>
-      <a  id="id-iconos-footer" href="https:www.youtube.com"><i
-        ><img
-          id="iconos"
-          src="media/youtube.png"
-          alt="icono de youtube"
-      /></i></a>
-      <a href="https://www.youtube.com"><i
-        ><img
-          id="iconos"
-          src="media/instagram.png"
-          alt="icono de instagram"
-      /></i></a>
-      <a href="https://www.youtube.com"><i
-        ><img
-          id="iconos"
-          src="media/facebook.png"
-          alt="icono de facebook"
-      /></i></a>
-    </div>
+          
     </footer>
     <script src="script.js">
 
