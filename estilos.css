@@ -103,7 +103,7 @@ main {
     text-align: center;
     margin: auto;
     padding: .0rem;
-    width: 80%;
+    width: 100%;
     max-height: 100%;
 }
 #iconos {
@@ -202,12 +202,11 @@ display: flex;
 flex-direction: row;
 flex-wrap: wrap;
 justify-content: space-evenly;
-border:.1rem solid red;
+flex-basis: auto;
 max-height: 100%;
 max-width: 100%;  
-gap: 1rem; 
-margin: .5rem;
-padding: .5rem;
+ margin: .5rem;
+
 }
 .section-3 .productos .card-container .card{
  border-radius: 50px;   
@@ -220,6 +219,14 @@ padding: .5rem;
   object-fit:cover ;
   margin: .1rem;     
 }
+#titulo-direccion{
+    display:flex;
+    flex-direction: column;
+    flex-basis: auto;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+    
 #p-direccion{
     padding-top: 7%;
     font-size:1.7rem;
