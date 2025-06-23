@@ -17,9 +17,8 @@ body{
     background-color:whitesmoke;
     margin: .1rem  ;
     min-height: 20rem;
-       
-}
-img{
+   
+
     height: 22rem;
     width: 80%;
     border: 0.rem solid black;  
@@ -40,6 +39,7 @@ a{
 }
 nav{
     margin:auto;
+    width: 80%;
 }
 nav ul{ 
     display: flex;
@@ -47,13 +47,18 @@ nav ul{
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;   
-    width:80%;
+    width:100%;
     margin: auto;
     background-color: orangered;
     font-size: 2rem; 
     font-weight: bolder;       
     list-style-type:none;
     padding:2rem;   
+    }
+    iframe{
+        display: flex;
+        min-width: 140px;
+        flex-basis: auto;
     }
 .contenedor-texto-p1{
     display:flex;
@@ -95,8 +100,8 @@ main {
     text-align: center;
     margin: auto;
     padding: .0rem;
-    width: 80%;
-    max-height: 100%;
+    width: 85%;
+    max-height: 80%;
 }
 #iconos {
     width: 3rem;
@@ -289,10 +294,9 @@ footer {
     justify-content: center; 
     background-color: blueviolet;
     border: dodgerblue;
-    width: 80%;
+    width: 100%;
     max-height: 60vh;
-    margin:auto;
-     
+         
 }
 .footer-copyRight{
     display: flex;
