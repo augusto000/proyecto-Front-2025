@@ -41,7 +41,7 @@ h2{
 
 }
 #encabezado{
-    margin:0rem;
+    margin:auto;
     padding: 0rem;
     text-align: center;
     width:auto;
@@ -55,33 +55,33 @@ nav{
 }
 nav ul{ 
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;   
     max-width:80%;
-    margin: auto;
+    min-height: 100px;
+    margin-left: 10%;    
     background-color: orangered;
     font-size: 2rem; 
     font-weight: bolder;       
-    list-style-type:none;
-    padding:2rem; 
-    flex-basis: auto; 
-    min-width: 400px;
-    max-width: 80%; 
+    list-style-type:none;    
     }
+
 .contenedor-texto-p1{
     display:flex;    
-    flex-wrap:wrap;
-    width: 80%;
+    width: 100%;
     margin: auto;
    flex-basis: auto;
    table-layout: fixed;
-}    
+} 
+iframe{
+    display: flex;
+    flex-basis: auto;
+    min-width: 150px;
+}   
 #section-1{
     display: flex;
-    flex-direction: row;    
-    
+    flex-wrap: nowrap;
     table-layout: fixed;
     border: 0rem solid white;
     margin: auto; 
@@ -203,8 +203,8 @@ nav ul li a:hover{
 }
 .productos{    
     background-color: aquamarine;
-    width: 80%;
-    margin: .5rem;
+    width: 100%;
+    margin: .2rem;
 
 }
 .section-3 .productos .titulo-container p{
@@ -220,11 +220,9 @@ flex-direction: row;
 flex-wrap: wrap;
 flex-basis: auto;
 justify-content: space-evenly;
-
-max-height: 100%;
+max-height: 10%;
 max-width: 100%;  
- 
-margin: .5rem;
+margin: auto;
 padding: .5rem;
 table-layout: fixed;
 }
@@ -233,16 +231,20 @@ table-layout: fixed;
   max-width: 100%;    
 }
 .section-3 .productos .card-container .card img{
-  border-radius: 3%;   
+  display: flex;
+
+  align-items: center;
+  border-radius: 3%; 
+  height: 100px;  
   max-width: 100%;  
   object-fit:cover ;
-  margin: .1rem;     
+  margin: auto;     
 }
 .card-uno img{
     width: 65%;
 }
 #p-direccion{
-    padding-top: 7%;
+    margin-top: .9rem;
     font-size:1.7rem;
     padding:0;
 }
@@ -327,22 +329,16 @@ footer{
    align-items: center; 
    background-color: blueviolet;
    max-width: 80%;
-   min-height: 60px;
+   min-height: 40px;
    margin:auto;
    padding: .5rem;
    font-size: 1rem;
 }
 #comision .comision-1{
     color: white;
+    width: 40px;
 }
-#autor .autor{
-    margin: .2rem .7rem;
-    color:white;
-}
-#autor .nombre{
-    margin-left: -.7rem;
-    
-}
+
 #copy .simbolo{
     color:blanchedalmond;
     margin-left: 1rem;
@@ -360,50 +356,84 @@ footer{
     align-items: center;
     flex-wrap: wrap;
     flex-basis: auto;
-    width: 60%;
+    width: 50%;
     object-fit: cover;
     margin: auto ;
     gap: 1rem;
      aspect-ratio: 1/1;
     object-fit: contain;
 }
+#comision{
+    display: flex;
+    flex-direction: column;
+    flex-basis: auto;
+    flex-wrap: wrap;
+    font-size: .5rem;
+    width: 50px;
+    padding: .1rem;
+    margin-left: -.3rem;
+}
+#autor{
+    display: flex;
+    flex-direction: column;
+    font-size: .5rem;
+    justify-content: center;
+    align-items: left;
+    margin-top: -.6rem;
+    flex-basis: auto;
+}
+.autor{   
+    height: 10px;
+    width: 24px;
+    justify-content: center;
+    align-items: center;
+    margin-top:.7rem;
+    color:white;
+    flex-basis: auto;
+}
+
+
 #youtube{
     width:35px;
     aspect-ratio: 1/1;
     object-fit: contain;
+     max-height: 40px; 
 }
 #instagram{
     width:35px;
     aspect-ratio: 1/1;
-    object-fit: contain;    
+    object-fit: contain;
+     max-height: 40px;     
 }
 #face{
     width:35px;
     aspect-ratio: 1/1;
-    object-fit: contain;     
+    object-fit: contain; 
+    max-height: 40px;    
 }
-#contenedor-reseñas{
-    display: flex;
-    justify-content: center;
-    justify-items: center;    
-    flex-wrap: nowrap;
-    max-width: 100%;
-    min-height: auto;
-    margin: auto;
-    flex-basis: auto;
-}
-.rese{
-
-    border: 1px solid blue;
-    width: 23%;
-    min-height: 200px;
-    margin:.5rem;
-    background-color: orangered;
-    flex-basis: auto;  
-}
+/*titulo h2 reseña*/
 #resen{
   color: blueviolet;
   max-width: 100%;
   background-color: orangered;
   margin: auto;  
 }
+#contenedor-reseñas{
+    display: flex;
+    justify-content:space-evenly;
+    justify-items: center;    
+    flex-wrap: nowrap;
+    max-width: 100%;
+    height: 100px;
+    margin: auto;
+    flex-basis: auto;
+}
+.rese{
+    border: 1px solid blue;
+    width: 15%;
+    min-height: 25px;
+    margin:.5rem;
+    background-color: orangered;
+    
+}
+
