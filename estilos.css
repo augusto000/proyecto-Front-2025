@@ -8,16 +8,8 @@ html{
 }
 
 
-<<<<<<< HEAD
- #encabezado img {
-    width: 200px;
-    max-height: 250px;
-    border: 1px solid red;
-    margin: auto;
-=======
 #encabezado img{
     max-width: 80%;
     max-height: 250px;
     border: 1px solid red;
->>>>>>> 3a8651378246bb4c3a7891448348c35bdb080522
 }
