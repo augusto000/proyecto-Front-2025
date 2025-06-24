@@ -1,0 +1,15 @@
+*{
+  margin:0;
+  padding:0; 
+  box-sizing: border-box;  
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+#encabezado img{
+    max-width: 80%;
+    max-height: 250px;
+    border: 1px solid red;
+}
